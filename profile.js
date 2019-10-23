@@ -8,6 +8,8 @@ const SQLite = require('sqlite'); // SQLite Package to read & write to sql files
 const path = require('path'); // Path Package to get paths easily
 const ms = require('parse-ms'); // parse-ms Package to format ms to somethings
 const fs = require('fs'); // file-sytem package.
+const canvas = require("canvas");
+const Canvas = require("canvas");
 
 // Bot Configs:
 const config = require(path.join(__dirname, 'config.json')); // Bot Config
